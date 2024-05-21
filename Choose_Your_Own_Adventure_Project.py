@@ -43,11 +43,11 @@ while keepGoing.lower() == "yes":
     
         favoriteOS = typingInput("\nWhat is your favorite Operating System, such as Windows, Linux, or Mac:  ")
         while (len(favoriteOS) == 0): 
-            favoriteOS = typingInput("\nInvalis Entry, please do not leave blank. Please enter your Favorite Operating System")
+            favoriteOS = typingInput("\nInvalis Entry, please do not leave blank. Please enter your Favorite Operating System:  ")
     
         favoriteAntiVirus = typingInput("\nEven if you don't use one, what is your Favorite AntiVirus Software:  ")
         while (len(favoriteAntiVirus) == 0):
-            favoriteAntiVirus = typingInput("\nInvalid evtry, please do not leave blank! Please enter your favorite AntiVirus Software.")
+            favoriteAntiVirus = typingInput("\nInvalid evtry, please do not leave blank! Please enter your favorite AntiVirus Software:  ")
     
         #BEGINNING OF STORY
         typingPrint(f"\nGreat! That is all that we need to go ahead and get this Super Computer ready for you! Again, congratulations! ... Ugh! What a load of crap! {firstName} is such an idiot!")
