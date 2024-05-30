@@ -41,7 +41,7 @@ while keepGoing.lower() == "yes":
         while (len(addressCity) == 0):
             addressCity = typingInput("\nInvalid Entry, please do not leave blank! Enter the city that you live in:  ")
     
-        favoriteOS = typingInput("\nWhat is your favorite Operating System, such as Windows, Linux, or Mac:  ")
+        favoriteOS = typingInput(f"\nIve heard that {addressCity} is quite nice this time of year! Moving forward! What is your favorite Operating System, such as Windows, Linux, or Mac:  ")
         while (len(favoriteOS) == 0): 
             favoriteOS = typingInput("\nInvalis Entry, please do not leave blank. Please enter your Favorite Operating System:  ")
     
@@ -70,7 +70,7 @@ while keepGoing.lower() == "yes":
             typingPrint("\nRICO:   Ant Vinigar is it? You think you can out smart and out play the Great and Powerful Rico NoVerrey")
         
         else:
-            typingPrint(f"\nRICO:   This is all way too easy {firstName}! Aaaannnddd... There! *DELETE* Bye bye important work emails, application settings and information! Oh! Pics from a vacation! See ya NEVER AGAIN!")
+            typingPrint(f"\nRICO:   Birthdate is {birthDate}, name is {firstName}, lives in {addressCity}...This is all way too easy {firstName}! Aaaannnddd... There! *DELETE* Bye bye important work emails, application settings and information! Oh! Pics from a vacation! See ya NEVER AGAIN!")
             typingPrint(f"\nAUNTY:   It's going to be okay, so what, you have to start fresh. Let this be a lesson learned {firstName}. And as for you Mr. NoVerrey, I have a big suprize in store for you!")
             typingPrint("\nRICO:   Listen honey, you ain't got nothing that I cannot handle. I amm already here inside the CPU and I have everything ready to light this place up like the 4th of July!")
             
